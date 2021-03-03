@@ -1,0 +1,131 @@
+body,html{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash.jpg");
+  background-repeat: none;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+a.link{
+  text-decoration: none;
+  color: white;
+}
+a.link:hover{
+  color: #000;
+}
+div.header{
+  background-color: rgba(255, 255, 255, 0.637);
+  padding: 10px 2%;
+  position: relative;
+  text-align: justify;
+  backdrop-filter: blur(6px);
+}
+span.logoname{
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.logo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+img.logo{
+  width: 100px;
+}
+div.nav{
+  display: inline-block;
+  right: 0px;
+  vertical-align: middle;
+  width: 56%;
+  text-align: right;
+}
+div.search,div.box, .sbox{
+  margin: 10% auto;
+  width: 65%;
+  color: #2c2c2c;
+  background-color: rgba(255, 255, 255, 0.637);
+  backdrop-filter: blur(6px);
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+div.search{
+  margin-bottom: 10px;
+}
+h2{
+  margin: 0px 0px 40px 0px;
+}
+.hh{
+  margin: 0px 0px 20px 0px;
+}
+.hhh{
+  margin: 0px 0px 20px 0px;
+}
+select,input[type=text],input[type=password]{
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(255, 244, 227);
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 4px;
+}
+select:focus,input[type=text]:focus,input[type=password]:focus{
+  background-color:  rgb(255, 244, 227);
+  outline: 1px solid rgb(206, 243, 255);
+}
+input[type=text],input[type=password]{
+  margin: 15px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgb(133, 133, 133);
+}
+.searchbutton{
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  background-color: #2c2c2c;
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 4px;
+}
+.buttonbook{
+  width: 49.4%;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  background-color: #2c2c2c;
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+section.functions{
+  text-align:center;
+  padding: 0px;
+  margin: 0px auto;
+}
+section div.sbox{
+  display: inline-block;
+  width: 30%;
+}
+img.func{
+  width: 200px ;
+  height: 200px;
+  margin: 10px auto;
+}
